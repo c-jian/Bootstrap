@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="./src/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="./src/css/public.css">
+	<link rel="stylesheet" type="text/css" href="./src/css/index.css">
+	<link rel="stylesheet" type="text/css" href="./src/css/animate.css">
+	<script type="text/javascript" src="./src/js/jquery.js"></script>
+	<script type="text/javascript" src="./src/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="./src/js/index.js"></script>
+	<script type="text/javascript" src="./src/js/public.js"></script>
+	<!--[if lt IE 9]>
+      <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<!-- 导航 -->
+
+<div class="modal fade" id="signup">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="signup">Sign up</h4>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="form-group">
+            <label for="recipient-name" class="control-label">Account:</label>
+            <input type="text" class="form-control" id="recipient-name">
+          </div>
+          <div class="form-group">
+            <label for="message-text" class="control-label">Password:</label>
+            <input type="password" name="" class="form-control" id="">
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Submit</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<nav class="navbar navbar-default navbar-fixed-top" id="nav">
+  <div class="container-fluid">
+
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="logo" href="/"><img src="./src/img/logo.gif" alt=""></a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right nav-list">
+        <li><a href="/" class="active">Product</a></li>
+        <li><a href="pricing.html">Pricing</a></li>
+        <li><a href="support.html">Support</a></li>
+        <li class="sign-in"><a href="#">Sign in</a></li>
+        <li><a href="#" class="btn btn-signup" data-toggle="modal" data-target="#signup">Sign up</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+<!-- /导航 -->
+
+<!-- section-1 -->
+<section id="index">
+	<div class="index-box">
+		<div class="index-bg"></div>
+		<div class="index-main">
+			<div class="text">
+				<p>A messaging app that helps your team easily connect and get work done</p>
+				<button type="button" class="btn btn-primary btn-lg">Take a video tour</button>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- /section-1 -->
+
+<!-- section-2 -->
+<section id="features-introduce" class="section-box">
+	<div class="fi-container">
+
+		<h2 class="title text-center">Features your team will <img src="./src/img/heart-small.png"><span></span></h2>
+		<p class="summary text-center">We’ve built everything into Glip, so working is easy.</p>
+
+
+		<div class="list">
+		  <div class="list-left">
+		    <img class="media-left-120" src="./src/img/chat.png" alt="chat">
+		  </div>
+		  <div class="list-body">
+		    <h4 class="list-heading">Superior team messaging</h4>
+		    <p>Chat in real-time text, voice, or video conferencing and bring remote teams together.</p>
+		  </div>
+		</div>
+
+		<div class="list">
+		  <div class="list-left pull-right">
+		    <img class="media-left-120" src="./src/img/could.png" alt="chat">
+		  </div>
+		  <div class="list-body">
+		    <h4 class="list-heading">Share and collaborate on files</h4>
+		    <p>Drag and drop files for instant sharing and feedback. You’ll find unlimited storage always waiting for you.</p>
+		  </div>
+		</div>
+
+		<div class="list">
+		  <div class="list-left">
+		    <img class="media-left-120" src="./src/img/create.png" alt="chat">
+		  </div>
+		  <div class="list-body">
+		    <h4 class="list-heading">Create and manage tasks</h4>
+		    <p>Keep projects on track by setting action items and timelines. Assign teams based on projects, themes, or departments.</p>
+		  </div>
+		</div>
+
+	</div><!-- /container -->
+</section>
+<!-- /section-2 -->
+
+<!-- section-3 -->
+<section id="help" class="section-box">
+
+	<h2 class="title text-center">How else can Glip help?</h2>
+	<p class="summary text-center">Let’s have a look:</p>
+
+	<div class="container">
+		<div class="row">
+
+			<div class="col-md-3 col-sm-6 col-xs-12">
+				<p class="getit">Manage projects</p>
+			</div>
+			<div class="col-md-3 col-sm-6 col-xs-12">
+				<p class="getit">Host video conferences</p>
+			</div>
+			<div class="col-md-3 col-sm-6 col-xs-12">
+				<p class="getit">Share files with automatic version control</p>
+			</div>
+			<div class="col-md-3 col-sm-6 col-xs-12">
+				<p class="getit">Share screen with team and customers</p>
+			</div>
+
+			<div class="col-md-3 col-sm-6 col-xs-12">
+				<p class="getit">Work on the go</p>
+			</div>
+			<div class="col-md-3 col-sm-6 col-xs-12">
+				<p class="getit">Manage team’s calendar</p>
+			</div>
+			<div class="col-md-3 col-sm-6 col-xs-12">
+				<p class="getit">Use with Outlook® & Google Calendar™</p>
+			</div>
+			<div class="col-md-3 col-sm-6 col-xs-12">
+				<p class="getit">Work with clients</p>
+			</div>
+
+			<div class="col-md-3 col-sm-6 col-xs-12">
+				<p class="getit">Annotate images</p>
+			</div>
+			<div class="col-md-3 col-sm-6 col-xs-12">
+				<p class="getit">Email into Glip teams</p>
+			</div>
+			<div class="col-md-3 col-sm-6 col-xs-12">
+				<p class="getit">Use as an IM replacement</p>
+			</div>
+			<div class="col-md-3 col-sm-6 col-xs-12">
+				<p class="getit">Use as a knowledge base</p>
+			</div>
+
+
+			<div class="col-md-3 col-sm-6 col-xs-12">
+				<p class="getit">Collaborate on documents with audit trail</p>
+			</div>
+			<div class="col-md-3 col-sm-6 col-xs-12">
+				<p class="getit">Push notifications</p>
+			</div>
+			<div class="col-md-3 col-sm-6 col-xs-12">
+				<p class="getit">Read news feeds</p>
+			</div>
+			<div class="col-md-3 col-sm-6 col-xs-12">
+				<p class="getit">Manage projects</p>
+			</div>
+
+		</div>
+	</div>
+
+</section>
+<!-- /section-3 -->
+
+<!-- section-4 -->
+<section id="mobile" class="section-box">
+
+	<div class="container">
+		<h2 class="title text-center">Mobile, too?</h2>
+		<p class="summary text-center">You bet.</p>
+		<p class="android text-center">Travel near or far, we’re ready to go on iOS® and Android™.</p>
+		<div class="goto-btn">
+			<a href="">App Store</a><a href="">Google Play</a>
+		</div>
+	</div>
+	<div class="iphone"></div>
+
+</section>
+<!-- /section-4 -->
+
+<!-- section-5 -->
+<section id="more-app" class="section-box">
+	
+	<div class="container">
+
+		<h2 class="title text-center">Glip plays well with other apps</h2>
+		<p class="summary text-center">Already using an online solution? We’re there for you.<br>
+Glip integrates with all your favorites. <a href="#">View</a> our growing list.</p>
+		
+		<div class="relation"><img src="src/img/more-app.png"></div>
+
+	</div>
+
+</section>
+<!-- /section-5 -->
+
+<!-- section-6 -->
+<section id="team" class="section-box">
+
+	<h2 class="title text-center">Productive teams worldwide <img src="./src/img/heart-small.png"> Glip</h2>
+	<p class="summary text-center">Try it now and see why.</p>
+
+	<!-- <ul class="control">
+		<li></li>
+		<li class="active"></li>
+		<li></li>
+	</ul> -->
+
+	<ul class="people-box">
+
+		<li class="people-list">
+			
+			<div class="img">
+		      	<img class="media-object" src="src/img/sara-moore.jpg"/>
+		  	</div>
+				
+			<div class="info">
+		    	Sara Moore<br/>
+		    	<span>CEO of SEA Media</span>
+		 	</div>
+
+			<div class="text">
+				“I always tell people, when they ask me how I run my business and stay so efficient, that it all starts with Glip. It’s my best tool — it’s my ninja weapon.”
+			</div>
+
+		</li>
+
+		
+		<li class="people-list">
+			
+			<div class="img">
+		      	<img class="media-object" src="src/img/daniel-jagd.jpg"/>
+		  	</div>
+				
+			<div class="info">
+		    	Daniel Jagd<br/>
+		    	<span>VP of Strategic Relations at Travelers Haven</span>
+		 	</div>
+
+			<div class="text">
+				“All our teams have very specialized tasks, but they all have to work together. Glip is probably the number-one way they communicate.”
+			</div>
+
+		</li>
+
+
+		<li class="people-list">
+			
+			<div class="img">
+		      	<img class="media-object" src="src/img/sam-lawrence.jpg"/>
+		  	</div>
+				
+			<div class="info">
+		    	Sam Lawrence<br/>
+		    	<span>Editor-in-chief of Bullet Music</span>
+		 	</div>
+
+			<div class="text">
+				“It’s Glip tasks and conversations for us all day, especially because the work is so deadline driven. It’s really, really tough to get stuff in on time. We wouldn’t be able to do it if we didn’t have a central place where we can see everything on a calendar.”
+			</div>
+
+		</li>
+
+	</ul>
+
+</section>
+<!-- /section-6 -->
+
+<!-- section-7 -->
+<section id="send-email" class="section-box">
+	<div class="get-account">
+		<form action="">
+			<span>Get your free account now.</span>
+			<input type="email" name="email" class="email" placeholder="Enter your email address" autocomplete="off">
+			<input type="submit" value="Get started" class="email-submit">
+		</form>
+	</div>
+</section>
+<!-- /section-7 -->
+
+<!-- footer -->
+<footer id="footer">
+
+	<div class="footer-logo">
+		<img src="src/img/footer-logo.gif">
+	</div>
+
+	<div class="twitter">
+		<img src="src/img/twitter-icon.gif" alt="">
+		<p>If you have any questions, <br/>reach out to us on Twitter.</p>
+	</div>
+
+	<ul class="navList">
+		<li class="navItem">
+			<a href="" target="_blank" rel="noreferrer">Blog</a>
+		</li>
+		<li class="navItem pricing_item">
+			<a href="">Pricing</a>
+		</li>
+		<li class="navItem">
+			<a href="" target="_blank" rel="noreferrer">Support</a>
+		</li>
+		<li class="navItem">
+			<a  href="">Integrations</a>
+		</li>
+		<li class="navItem">
+			<a href="">Downloads</a>
+		</li>
+		<li class="navItem">
+			<a href="" target="_blank">Press</a>
+		</li>
+		<li class="navItem">
+			<a href="" target="_blank" rel="noreferrer">About</a>
+		</li>
+	</ul>
+
+	<div class="bottom">
+		<div class="icons"><img src="./src/img/footer-right-icon.gif" alt=""></div>
+		<ul class="foreign-chain">
+			<li><a href="">Privacy</a></li>
+			<li><a href="">Terms</a></li>
+		</ul>
+		<p class="copyright">Copyright © 2018. All rights reserved.</p>
+	</div>
+
+</footer>
+<!-- /footer -->
+
+</body>
+
+</html>
